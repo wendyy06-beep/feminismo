@@ -1,0 +1,96 @@
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 196, 244);
+    color: white;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color:violet;
+    color:purple;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+/* Menú de navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+
+/* Contenido principal */
+main {
+    padding: 30px 15px;
+}
+
+.contenedor {
+    background-color: violet;
+    max-width: 800px;
+    margin: 0 auto 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #00000015;
+    scroll-margin-top: 20px;
+}
+
+.contenedor h2 {
+    color: purple;
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    color:purple;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Adaptación a celulares */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .contenedor {
+        padding: 20px;
+    }
+}
+
+a {
+    background-color: violet;
+}
+
+img {
+    display: block;
+   margin: 0 auto;
+   max-width: 50%;  
+   height: auto;
+}
